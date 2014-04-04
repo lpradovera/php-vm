@@ -1,0 +1,23 @@
+.DS_Store
+.vagrant
+.rvmrc
+*.log
+vagrant/
+tmp
+iso
+*.box
+*~
+*#
+.#*
+\#*#
+.*.sw[a-z]
+*.un~
+/cookbooks
+
+# Bundler
+Gemfile.lock
+bin/*
+.bundle/*
+
+.kitchen/
+.kitchen.local.yml

@@ -1,0 +1,40 @@
+DEPENDENCIES
+  apache2
+    git: git://github.com/MiniCodeMonkey/apache24
+    revision: 2ce633119d636fc5392016228e79ba5a1c0bfc40
+  apt
+  build-essential
+  mysql
+  openssl
+  php
+  postfix
+  softplace-misc
+    path: ./softplace-misc
+
+GRAPH
+  apache2 (1.8.0)
+  apt (2.3.0)
+  build-essential (1.4.2)
+  chef_handler (1.1.5)
+  iis (2.1.0)
+    windows (>= 1.2.6)
+  mysql (5.0.2)
+  openssl (1.1.0)
+  php (1.1.8)
+    build-essential (>= 0.0.0)
+    mysql (>= 0.0.0)
+    xml (>= 0.0.0)
+  postfix (3.0.4)
+  softplace-misc (0.0.0)
+    apache2 (>= 0.0.0)
+    apt (>= 0.0.0)
+    mysql (>= 0.0.0)
+    openssl (>= 0.0.0)
+    php (>= 0.0.0)
+  windows (1.30.2)
+    chef_handler (>= 0.0.0)
+  xml (1.2.4)
+    build-essential (>= 0.0.0)
+  yum (3.1.6)
+  yum-epel (0.3.4)
+    yum (~> 3.0)
